@@ -1,0 +1,24 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  &__input {
+    margin: 10px auto 0;
+    width: 600px;
+    outline: none;
+    border: 2px solid #000202;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  &__button {
+    cursor: pointer;
+    font-size: 15px;
+
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    margin: 5px auto 0;
+    width: 150px;
+    height: 50px;
+  }
+}
